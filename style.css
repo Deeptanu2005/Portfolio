@@ -221,17 +221,21 @@ right: 5%;
   padding-left: 7px;
 }
 
-
+/* Main */
+main {
+  background-color: var(--secondary-col);
+}
 /* About Me Section */
 
 #aboutme {
   min-height: 900px ;
+  margin: 0 1px;
   transform: translateY(-10%);
   background-image: url(images/about-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 55px 55px 0 0;
+  border-radius: 55px;
   z-index: 10;
   border: 2px solid var(--primary-col);
   box-shadow: 0 0 20px #ffff00b3;
@@ -245,6 +249,7 @@ right: 5%;
   z-index: 4;
   padding-left: 70px;
   padding-right: 70px;
+  padding-bottom: 70px;
 
 }
 
@@ -280,16 +285,12 @@ right: 5%;
 .about-desc1 {
   font-size: 28px;
   letter-spacing: 2px;
+  text-align: justify;
 }
 
 .about-desc2 {
   font-size: 18px;
   letter-spacing: 2.5px;
+  text-align: justify;
 }
 
-#works {
-  background-color: var(--secondary-col);
-  transform: translateY(-38%);
-  height: 250px;
-  box-shadow: 0 -40px 50px var(--secondary-col);
-}
