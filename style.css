@@ -225,8 +225,7 @@ right: 5%;
 /* About Me Section */
 
 #aboutme {
-  height: 100vh;
-  margin: 0 20px;
+  min-height: 900px ;
   transform: translateY(-10%);
   background-image: url(images/about-bg.jpg);
   background-size: cover;
