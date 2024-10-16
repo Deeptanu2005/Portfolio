@@ -10,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+  min-width: 100vw;
   font-family: poppins, sans-serif;
 }
 
