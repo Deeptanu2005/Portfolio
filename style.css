@@ -732,7 +732,7 @@ footer {
   justify-content: center;
   margin-left: 40px;
   background-color: #002124a4;
-  padding: 40px 110px 40px 40px;
+  padding: 29px 110px 30px 40px;
   font-size: large;
   border-radius: 30px;
   border: 1px solid white;
@@ -776,7 +776,7 @@ footer {
 
 .love-icon {
     color: red;
-    padding: 0 8px;
+    font-size: xx-large;
 }
 
 
