@@ -20,6 +20,6 @@ Explore my portfolio: Discover my journey as a passionate Computer Science stude
 
 If you’d like to collaborate, discuss projects, or just say hello, feel free to reach out:
 
-- **Email**: [deeptanusen@example.com](mailto:deeptanusends2005@icloud.com)
+- **Email**: [deeptanusends2005@icloud.com](mailto:deeptanusends2005@icloud.com)
 
 Looking forward to connecting!
