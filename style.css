@@ -13,6 +13,10 @@
   font-family: poppins, sans-serif;
 }
 
+body {
+  background-color: var(--secondary-col);
+}
+
 /* Common Start */
 .big-desc {
   font-size: 28px;
@@ -169,7 +173,6 @@ header {
   border-radius: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
-  
 }
 
 .nav-link {
@@ -305,9 +308,9 @@ main {
 
 .aboutme-img {
   max-width: 320px;
-  border: 2px solid var(--primary-col);
+  border: 2px solid white;
   border-radius: 30px;
-  box-shadow: 0 0 20px #ffff00b3;
+  box-shadow: 0 0 10px white;
 }
 
 .aboutme-right {
@@ -713,10 +716,25 @@ margin-top: 100px;
 
 /* Footer */
 footer {
-  background-color: #0A0F2C;
-  height: 300px;
+  min-height: 300px;
+  margin: 0 30px 30px 30px;
+  border-radius: 30px;
+  border: 1px solid #fff0;
+  box-shadow: 0 0 20px black;
+  
+  background-image: url(images/footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  transition: 0.4s ease;
 }
 
+footer:hover {
+  border: 1px solid var(--primary-col);
+  box-shadow: 0 0 20px #ffff00b3;
+
+}
 
 .footer-content{
   display: flex;
@@ -731,11 +749,21 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin-left: 40px;
-  background-color: #002124a4;
+  background-color: #0021246a;
   padding: 29px 110px 30px 40px;
   font-size: large;
   border-radius: 30px;
-  border: 1px solid white;
+  box-shadow: 0 0 20px #000000cc;
+  border: 2px solid #fff0;
+
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+
+  transition: 0.4s ease;
+}
+
+.footer-info:hover {
+  border: 2px solid white;
   box-shadow: 0 0 7px white;
 }
 
@@ -751,12 +779,22 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  background-color: #002124a4;
+  background-color: #1025273d;
   font-size: larger;
-  padding: 30px 270px 30px 40px;
+  padding: 30px 155px 30px 40px;
   border-radius: 30px;
   gap: 15px;
-  border: 1px solid white;
+  box-shadow: 0 0 10px #00000083;
+  border: 2px solid #fff0;
+
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+
+  transition: 0.4s ease;
+}
+
+.linktab:hover {
+  border: 2px solid white;
   box-shadow: 0 0 7px white;
 }
 
