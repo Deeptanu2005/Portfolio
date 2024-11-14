@@ -137,6 +137,7 @@ header {
   font-size: x-large;
   font-weight: bolder;
   color: var(--primary-col);
+  text-shadow: 0 0 15px var(--primary-col);
 }
 
 .logo-txt {
@@ -196,6 +197,7 @@ header {
   text-decoration: none;
   font-size: xx-large;
   padding: 0 7px;
+  text-shadow: 0 0 15px var(--primary-col);
 }
 
 .hero {
@@ -232,7 +234,7 @@ header {
 .hero-heading2 .name-highlight {
   font-size: 53px;
   font-family: "Playwrite IS", cursive;
-
+  text-shadow: 0 0 10px #ffffff49;
 }
 
 .hero-img {
@@ -329,6 +331,7 @@ main {
   font-size: 55px;
   font-family: "Playwrite IS", cursive;
   color: var(--primary-col);
+  text-shadow: 0 0 10px var(--primary-col-faded);
 }
 
 /* Projects Section*/
@@ -827,4 +830,5 @@ footer:hover {
   text-decoration: none;
   font-size: xx-large;
   padding: 0 7px;
+  text-shadow: 0 0 15px var(--primary-col);
 }
